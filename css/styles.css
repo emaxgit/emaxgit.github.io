@@ -285,6 +285,11 @@ header ul
 
  }
 
+ .image-description h3
+ {
+ 	text-transform: uppercase;
+ }
+
  #description-section2 .next,  #description-section2 .prev
  {
  	margin: 80px 0;
@@ -509,6 +514,56 @@ footer-social-media-navigation i
 
 body
 {
+	text-align: justify;
+}			
+
+	.footer-social-media-navigation , .social-media-navigation
+{
+	display: none;
+}
+
+footer .right-container p
+{
+	display: none;
+}
+
+.button-link
+{
+	margin-top: 50px;
+    width: 100%;
+
+	
+}
+
+#description-section1  h3
+{
+	text-align: left;
+}
+
+#description-section2  .image-box,
+#description-section2  .image-box .image-description
+
+
+{
+		min-width: 100%;
+		margin:0;
+		padding: 0;
+		text-align: justify;
+		
+}
+
+#description-section2  .image-box 
+.button-link, #description-section2 .prev,#description-section2 .next
+{
+	min-width: 100%;
+	padding-left: 0;
+	margin-left: 0;
+	
+
+}
+
+/*body
+{
 	text-align: center;
 }		
 
@@ -549,7 +604,7 @@ footer .right-container p
 	display: none;
 }
 
-
+*/
 
 }
 
