@@ -465,9 +465,17 @@ footer-social-media-navigation i
 
 }
 
+.button-link, #description-section2 .prev,#description-section2 .next
+{
+	padding-left: 0;
+	margin-left: 0;
+}
+
 #description-section2 .mini-arrows
 {
 	text-align: center;
+	padding-left: 0;
+	margin-left: 0;
 }
 #description-section2 .normal-prev , #description-section2 .normal-next
 	{
@@ -480,11 +488,13 @@ footer-social-media-navigation i
 	{
 		display: inline;
 		float: left;
-		margin-left: 25px;
+		margin-right: 25px;
 		margin-top:0;
 		margin-bottom: 20px;
 
 	}
+
+
 
 }
 
@@ -508,6 +518,11 @@ footer-social-media-navigation i
 #description-section2 .mini-arrows
 {
 	text-align: center;
+}
+
+footer .right-container p
+{
+	display: none;
 }
 
 
